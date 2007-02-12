@@ -6,7 +6,7 @@
 %define	pdir	HTTP
 %define	pnam	Cache-Transparent
 Summary:	HTTP::Cache::Transparent - Cache the result of HTTP GET requests persistently
-Summary(pl):	HTTP::Cache::Transparent - trwa³e zapamiêtywanie wyników ¿±dañ HTTP GET
+Summary(pl.UTF-8):   HTTP::Cache::Transparent - trwaÅ‚e zapamiÄ™tywanie wynikÃ³w Å¼Ä…daÅ„ HTTP GET
 Name:		perl-HTTP-Cache-Transparent
 Version:	0.6
 Release:	1
@@ -35,18 +35,18 @@ decide if the version in the cache is up-to-date or not.
 The cache is implemented by modifying the LWP::UserAgent class to
 seamlessly cache the result of all requests that can be cached.
 
-%description -l pl
-Implementacja HTTP GET przechowuj±ca w lokalnej pamiêci podrêcznej
-¶ci±gniête strony, aby zapobiec ¶ci±ganiu tych samych danych z
-serwera, je¶li nie zosta³y uaktualnione. Pamiêæ podrêczna jest
-zachowywana na dysku, wiêc jest trwa³a pomiêdzy wywo³aniami.
+%description -l pl.UTF-8
+Implementacja HTTP GET przechowujÄ…ca w lokalnej pamiÄ™ci podrÄ™cznej
+Å›ciÄ…gniÄ™te strony, aby zapobiec Å›ciÄ…ganiu tych samych danych z
+serwera, jeÅ›li nie zostaÅ‚y uaktualnione. PamiÄ™Ä‡ podrÄ™czna jest
+zachowywana na dysku, wiÄ™c jest trwaÅ‚a pomiÄ™dzy wywoÅ‚aniami.
 
-Modu³ u¿ywa nag³ówków HTTP If-Modified-Since i ETag, aby umo¿liwiæ
+ModuÅ‚ uÅ¼ywa nagÅ‚Ã³wkÃ³w HTTP If-Modified-Since i ETag, aby umoÅ¼liwiÄ‡
 serwerowi zdecydowanie, czy wersja w buforze jest aktualna, czy nie.
 
-Pamiêæ podrêczna jest zaimplementowana poprzez modyfikacjê klasy
-LWP::UserAgent, aby w sposób przezroczysty zapamiêtywaæ wyniki
-wszystkich ¿±dañ, które mog± byæ zapamiêtane.
+PamiÄ™Ä‡ podrÄ™czna jest zaimplementowana poprzez modyfikacjÄ™ klasy
+LWP::UserAgent, aby w sposÃ³b przezroczysty zapamiÄ™tywaÄ‡ wyniki
+wszystkich Å¼Ä…daÅ„, ktÃ³re mogÄ… byÄ‡ zapamiÄ™tane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
