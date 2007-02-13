@@ -6,7 +6,7 @@
 %define	pdir	HTTP
 %define	pnam	Cache-Transparent
 Summary:	HTTP::Cache::Transparent - Cache the result of HTTP GET requests persistently
-Summary(pl.UTF-8):   HTTP::Cache::Transparent - trwałe zapamiętywanie wyników żądań HTTP GET
+Summary(pl.UTF-8):	HTTP::Cache::Transparent - trwałe zapamiętywanie wyników żądań HTTP GET
 Name:		perl-HTTP-Cache-Transparent
 Version:	0.6
 Release:	1
