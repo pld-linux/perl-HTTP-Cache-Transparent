@@ -8,13 +8,13 @@
 Summary:	HTTP::Cache::Transparent - Cache the result of HTTP GET requests persistently
 Summary(pl.UTF-8):	HTTP::Cache::Transparent - trwałe zapamiętywanie wyników żądań HTTP GET
 Name:		perl-HTTP-Cache-Transparent
-Version:	0.6
-Release:	2
+Version:	1.0
+Release:	1
 # same as perl 5.8.4+
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	49208c9cd61f8f687c5f5031845c5de2
+# Source0-md5:	e198345ce8eee2562c807e84d65e3b4f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
