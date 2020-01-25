@@ -4,7 +4,6 @@
 
 %define	pdir	HTTP
 %define	pnam	Cache-Transparent
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTTP::Cache::Transparent - Cache the result of HTTP GET requests persistently
 Summary(pl.UTF-8):	HTTP::Cache::Transparent - trwałe zapamiętywanie wyników żądań HTTP GET
 Name:		perl-HTTP-Cache-Transparent
